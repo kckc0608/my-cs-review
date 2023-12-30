@@ -1,0 +1,44 @@
+.container {
+    border: 1px solid black
+}
+
+.stack {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100px;
+    height: 300px;
+    overflow-y: scroll;
+}
+
+.queue {
+    display: flex;
+    height: 50px;
+    overflow-x: scroll;
+}
+
+.stack > .box {
+    background-color: aliceblue;
+    text-align: center;
+    min-height: 25px;
+    margin: 4px 0px;
+}
+
+.queue > .box {
+    background-color: aliceblue;
+    text-align: center;
+    vertical-align: middle;
+    padding: 0 auto;
+
+    min-width: 50px;
+    margin: 0px 4px;
+}
+
+.button {
+    border: 1px solid antiquewhite;
+    background-color: antiquewhite;
+    border-radius: 6px;
+    width: 100px;
+    margin: 4px;
+    text-align: center;
+    cursor: pointer;
+}
