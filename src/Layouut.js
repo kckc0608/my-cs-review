@@ -11,7 +11,7 @@ const LyaoutStyle = styled.div`
 
 const Layout = () => {
     return <LyaoutStyle>
-        <Header title="글 제목"/>
+        <Header title="[컴퓨터구조] 29. TLB와 캐시"/>
         <Content />
         <BottomNav />
     </LyaoutStyle>

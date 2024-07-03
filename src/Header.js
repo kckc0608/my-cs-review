@@ -3,6 +3,8 @@ import React from 'react';
 
 const HeaderStyle = styled.div`
     padding: 1rem;
+
+    box-shadow: 0px 6px 6px lightgrey;
 `;
 
 const Header = (props) => {
