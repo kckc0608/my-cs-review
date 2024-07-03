@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const ContentStyle = styled.div`
-    padding-left: 1rem;
+    padding: 2rem 1rem;
     margin: auto auto;
 
     font-size: 18px;
